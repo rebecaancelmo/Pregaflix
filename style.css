@@ -1,4 +1,32 @@
-body{
-    background-color: aquamarine
+body {
+    background: aquamarine;
     color: white;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(1, 8, 17);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(14, 89, 133);
+}
+
+section {
+    background: rgb(156, 213, 196);
+	padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
 }
